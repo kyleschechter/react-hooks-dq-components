@@ -5,11 +5,9 @@ import SideMenu from "./SideMenu"
 
 function App() {
   return <div className="app-container">
+    <TopMenu />
     <SideMenu />
-    <body>
-      <TopMenu />
-      <MainContent />
-    </body>
+    <MainContent />
   </div>;
 }
 
